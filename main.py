@@ -3,6 +3,7 @@ import generate_users
 import generate_cars
 import generate_drives
 import generate_problems_and_operations
+import file_mover
 
 
 def main():
@@ -40,8 +41,9 @@ def main():
         print("------------------------------------------------------")
     else:
         print("invalid number")
+        return
 
-
+    file_mover.move_files()
 
 
 
