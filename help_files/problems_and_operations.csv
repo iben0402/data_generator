@@ -1,0 +1,35 @@
+Opis,Rozwiązanie,Cena,Czas,Rodzaj
+Niski stan paliwa,Zatankowanie,50,0.25,tankowanie
+Problem ze sprzęgłem,Naprawa sprzęgła,300,3.5,naprawa
+Kontrolka na desce rozdzielczej,Sprawdzenie elektroniki,100,1.5,naprawa
+Awaria silnika,Naprawa silnika,500,4.5,naprawa
+Problemy z hamulcami,Naprawa hamulców,400,3.75,naprawa
+Problemy z zawieszeniem,Naprawa zawieszenia,450,4.0,naprawa
+Wyciek płynów eksploatacyjnych,Naprawa wycieku,200,2.5,naprawa
+Problem z klimatyzacją,Naprawa klimatyzacji,350,3.25,naprawa
+Uszkodzona skrzynia biegów,Naprawa skrzyni biegów,600,5.0,naprawa
+Problemy z układem elektrycznym,Naprawa układu elektrycznego,400,3.75,naprawa
+Niesprawne oświetlenie pojazdu,Naprawa oświetlenia,150,2.0,naprawa
+Awaria systemu chłodzenia,Naprawa systemu chłodzenia,250,2.75,naprawa
+Utrata mocy silnika,Naprawa mocy silnika,450,4.0,naprawa
+Problemy z układem wydechowym,Naprawa układu wydechowego,300,3.5,naprawa
+Problem z zawartością oleju,Dodanie oleju,50,0.25,tankowanie
+Utrata ciśnienia w oponach,Napompowanie opon,20,0.5,naprawa
+Uszkodzenie nadwozia,Naprawa nadwozia,550,4.25,naprawa
+Problem z układem hamulcowym,Naprawa układu hamulcowego,400,3.75,naprawa
+Brak reakcji przy przyspieszaniu,Naprawa reakcji,350,3.25,naprawa
+Wibracje przy hamowaniu,Naprawa wibracji,200,2.5,naprawa
+Dziwne dźwięki podczas jazdy,Sprawdzenie dzwięków,100,1.5,naprawa
+Problem z wtryskiem paliwa,Naprawa wtrysku,300,3.5,naprawa
+Uszkodzona pompa paliwa,Naprawa pompy paliwa,400,3.75,naprawa
+Wyciek oleju,Naprawa wycieku oleju,250,2.75,naprawa
+Problem z systemem ABS,Naprawa ABS,450,4.0,naprawa
+Usterki elektroniki,Naprawa elektroniki,500,4.5,naprawa
+Problem z układem kierowniczym,Naprawa kierownicy,350,3.25,naprawa
+Wahania prędkościomierza,Naprawa prędkościomierza,150,2.0,naprawa
+Utrata chłodzenia silnika,Naprawa chłodzenia,200,2.5,naprawa
+Uszkodzony filtr powietrza,Naprawa filtra powietrza,100,1.5,naprawa
+Zabrudzony bagażnik,Odkurzanie bagażnika,100,1,czyszczenie
+Zabrudzone szyby,Czyszczenie szyb,80,0.75,czyszczenie
+Brudne wnętrze samochodu,Czyszczenie wnętrza,120,1.25,czyszczenie
+Zabrudzone siedzenia,Czyszczenie siedzeń,120,3,czyszczenie

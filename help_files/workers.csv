@@ -1,0 +1,43 @@
+Name,Surname,City,Date of birth,School degree,Job description,Job starting day,Job finishing day
+Adam,Kowalski,Warsaw,1990-05-15,Master's degree,Pracownik techniczny,2011-08-15,2021-06-30
+Anna,Nowak,Kraków,1985-10-20,Bachelor's degree,Pracownik biurowy,2007-06-12,None
+Marek,Michalski,Wrocław,1992-03-08,High School,Pracownik techniczny,2013-09-10,2019-12-31
+Alicja,Jaworska,Poznań,1982-12-25,Master's degree,Serwisant,2006-04-05,None
+Piotr,Wójcik,Gdańsk,1988-07-14,Bachelor's degree,Pracownik biurowy,2011-11-20,None
+Ewa,Kaczmarek,Szczecin,1995-09-30,High School,Pracownik techniczny,2016-05-15,None
+Tomasz,Lis,Katowice,1984-06-02,Master's degree,Serwisant,2007-02-10,2022-10-15
+Katarzyna,Pawlak,Bydgoszcz,1993-02-03,Bachelor's degree,Pracownik biurowy,2015-07-18,None
+Łukasz,Wiśniewski,Lublin,1981-11-10,Master's degree,Pracownik techniczny,2003-08-20,None
+Dorota,Kołodziej,Łódź,1989-04-17,High School,Serwisant,2010-10-22,2020-04-30
+Marcin,Kruk,Gdynia,1987-08-04,Master's degree,Pracownik biurowy,2009-03-28,None
+Karolina,Witkowska,Częstochowa,1994-01-08,Bachelor's degree,Pracownik techniczny,2015-12-05,None
+Grzegorz,Sikora,Radom,1980-07-21,High School,Serwisant,2002-11-15,2019-09-15
+Magdalena,Kowal,Opole,1991-03-27,Master's degree,Pracownik techniczny,2012-05-09,None
+Wojciech,Piotrowski,Płock,1983-09-01,Bachelor's degree,Pracownik biurowy,2005-06-11,None
+Natalia,Adamczyk,Olsztyn,1986-12-12,High School,Serwisant,2008-08-14,2021-11-30
+Rafał,Szymański,Elbląg,1986-04-06,Master's degree,Pracownik techniczny,2007-10-10,2022-05-20
+Kamila,Majewska,Bytom,1990-08-29,High School,Pracownik techniczny,2011-04-20,None
+Michał,Nowicki,Torun,1984-01-18,Bachelor's degree,Pracownik biurowy,2006-07-25,None
+Jolanta,Wójcik,Legnica,1993-07-03,Master's degree,Pracownik techniczny,2015-09-08,None
+Radosław,Baran,Kalisz,1987-06-07,High School,Pracownik techniczny,2008-12-12,None
+Karol,Kubiak,Słupsk,1980-10-24,Bachelor's degree,Serwisant,2001-05-28,2020-07-15
+Aneta,Nowacka,Szczecin,1994-11-22,High School,Pracownik techniczny,2015-09-05,None
+Ryszard,Walczak,Rzeszów,1983-04-19,Master's degree,Pracownik biurowy,2005-07-10,None
+Daria,Kowalczyk,Kielce,1990-01-15,Bachelor's degree,Serwisant,2011-11-20,2022-08-31
+Tadeusz,Michalik,Gdynia,1988-05-30,High School,Pracownik techniczny,2009-09-15,None
+Wioletta,Kaczor,Kraków,1982-03-07,Master's degree,Serwisant,2003-12-12,2021-03-25
+Artur,Pawelec,Bydgoszcz,1989-08-28,High School,Pracownik biurowy,2010-05-18,None
+Klaudia,Nowakowska,Lublin,1993-07-12,Bachelor's degree,Pracownik techniczny,2014-06-20,None
+Andrzej,Adamski,Katowice,1981-09-25,Master's degree,Pracownik techniczny,2002-11-30,None
+Izabela,Wisniewska,Łódź,1991-02-04,High School,Pracownik biurowy,2012-07-15,None
+Dominik,Jankowski,Warsaw,1985-10-02,Master's degree,Serwisant,2007-12-08,2022-10-15
+Agnieszka,Sobolewska,Gdańsk,1990-06-28,High School,Pracownik techniczny,2012-03-20,None
+Krzysztof,Klimczak,Poznań,1986-01-31,Bachelor's degree,Serwisant,2008-08-22,2021-12-31
+Natalia,Piasecka,Kalisz,1987-12-15,Master's degree,Pracownik biurowy,2009-06-28,None
+Dawid,Wojda,Legnica,1983-05-11,High School,Pracownik techniczny,2005-09-05,None
+Marta,Kołodziejczyk,Opole,1992-03-19,Bachelor's degree,Pracownik techniczny,2013-11-15,None
+Przemysław,Koziol,Torun,1988-09-10,Master's degree,Serwisant,2009-12-20,2022-06-30
+Karolina,Mazur,Wrocław,1980-08-01,Bachelor's degree,Pracownik biurowy,2002-10-10,None
+Marek,Zalewski,Sosnowiec,1989-07-02,High School,Pracownik biurowy,2010-03-05,None
+Nina,Sikorska,Radom,1984-06-14,Master's degree,Serwisant,2006-08-18,None
+Kamil,Wawrzyniak,Elbląg,1986-11-17,High School,Pracownik biurowy,2008-05-25,None

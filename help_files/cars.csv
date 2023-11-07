@@ -1,0 +1,30 @@
+Car manufacturer,Model,Average fuel consumption (L/100 km) or average energy consumption (kWh/100 km),Gearbox type,Range on full gas tank or battery (km)
+Toyota,Corolla,6.5,Manual,650
+Honda,Civic,6.8,Automatic,620
+Ford,Fiesta,5.9,Manual,600
+Volkswagen,Passat,7.2,Automatic,580
+Tesla,Model 3,18.0,Electric,450
+Nissan,Leaf,20.0,Electric,400
+Chevrolet,Bolt EV,16.5,Electric,420
+Hyundai,Kona Electric,17.2,Electric,400
+Mazda,3,7.0,Manual,610
+Subaru,Impreza,7.5,Manual,590
+Kia,Optima,7.8,Automatic,570
+BMW,3 Series,7.2,Automatic,590
+Audi,A4,7.0,Automatic,600
+Mercedes-Benz,C-Class,7.5,Automatic,580
+Lexus,ES,7.3,Automatic,570
+Acura,ILX,7.1,Automatic,590
+Volvo,S60,7.4,Automatic,560
+Porsche,911,12.0,Manual,500
+Ferrari,488 GTB,15.5,Manual,400
+Lamborghini,Aventador,19.0,Manual,350
+McLaren,720S,14.2,Manual,420
+Chevrolet,Camaro,10.5,Manual,520
+Ford,Mustang,11.8,Manual,490
+Dodge,Challenger,12.3,Manual,480
+Jeep,Wrangler,13.5,Manual,450
+Subaru,Outback,8.2,Automatic,550
+Toyota,Rav4,8.0,Automatic,560
+Honda,CR-V,7.7,Automatic,580
+Mazda,CX-5,8.4,Automatic,540
