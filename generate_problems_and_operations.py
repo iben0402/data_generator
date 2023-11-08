@@ -102,10 +102,20 @@ def generate():
 
 def generate_default():
     przejazdy_w_bazie = 0
-    ilosc_przejazdow = 300
+    ilosc_przejazdow = 3000
     problemy_w_bazie = 0
-    ilosc_problemow = 100
+    ilosc_problemow = 1000
     opisy = generuj_problems_bulk(przejazdy_w_bazie, ilosc_przejazdow, ilosc_problemow)
     procent_rozw_problemow = 80
+    ilosc_operacji = int((procent_rozw_problemow/100)*ilosc_problemow)
+    generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy)
+
+def generate_second():
+    przejazdy_w_bazie = 3000
+    ilosc_przejazdow = 900
+    problemy_w_bazie = 1000
+    ilosc_problemow = 200
+    opisy = generuj_problems_bulk(przejazdy_w_bazie, ilosc_przejazdow, ilosc_problemow)
+    procent_rozw_problemow = 70
     ilosc_operacji = int((procent_rozw_problemow/100)*ilosc_problemow)
     generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy)

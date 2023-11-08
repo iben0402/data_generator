@@ -59,8 +59,15 @@ def generate():
     generuj_drives_bulk(ilosc_danych, liczba_pojazdow, liczba_uzytkownikow, rok_start)
 
 def generate_default():
-    liczba_uzytkownikow = 100
-    liczba_pojazdow = 100
-    ilosc_danych = 300
+    liczba_uzytkownikow = 1000
+    liczba_pojazdow = 1000
+    ilosc_danych = 3000
     rok_start = 2020
+    generuj_drives_bulk(ilosc_danych, liczba_pojazdow, liczba_uzytkownikow, rok_start)
+
+def generate_second():
+    liczba_uzytkownikow = 1200
+    liczba_pojazdow = 1200
+    ilosc_danych = 900
+    rok_start = 2021
     generuj_drives_bulk(ilosc_danych, liczba_pojazdow, liczba_uzytkownikow, rok_start)
