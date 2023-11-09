@@ -42,4 +42,7 @@ def generate():
 
 
 def generate_default():
-    generuj_vehicles_bulk(100)
+    generuj_vehicles_bulk(1000)
+
+def generate_second():
+    generuj_vehicles_bulk(200)
