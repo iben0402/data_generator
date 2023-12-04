@@ -41,7 +41,7 @@ def generuj_drives_bulk(liczba_przejazdow, liczba_pojazdow, liczba_uzytkownikow,
             losowa_data = losuj_date_przejazdu(rok_start)
             czas = losuj_czas()
             dystans = generuj_dystans(czas)
-            cena = dystans * 4
+            cena = dystans * 2 + 5
             zuzyte_paliwo = generuj_zuzyte_paliwo(dystans)
             miasto = losuj_miasto()
             id_pojazdu = losuj_id_pojazdu(liczba_pojazdow)

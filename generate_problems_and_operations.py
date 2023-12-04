@@ -1,4 +1,5 @@
 import csv
+from datetime import datetime
 
 import pandas as pd
 import random
@@ -54,8 +55,13 @@ def losuj_pracownika():
     except FileNotFoundError:
         return None, None
 
+def losuj_date_operacji(rok_start):
+    data_start = datetime(rok_start, 1, 1)
+    data_koniec = datetime.now()
+    return data_start + (data_koniec - data_start) * random.random()
 
-def generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy):
+
+def generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy, rok_start):
     with open('help_files/problems_and_operations.csv', 'r', newline='', encoding='utf-8') as file:
         reader = csv.DictReader(file)
         problems = list(reader)
@@ -76,8 +82,8 @@ def generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy):
                     imie_pracownika, nazwisko_pracownika = losuj_pracownika()
                     dodatkowe_informacje = losowy_string(int(150 * (1 + random.uniform(-0.5, 0.5))))
                     id_problemu = wylosowane_id[index] + problemy_w_bazie
-
-                    bulk_value = f"{imie_pracownika}|{nazwisko_pracownika}|{rozwiazanie}|{dodatkowe_informacje}|{cena}|{czas}|{rodzaj}|{id_problemu}"
+                    losowa_data = losuj_date_operacji(rok_start)
+                    bulk_value = f"{imie_pracownika}|{nazwisko_pracownika}|{rozwiazanie}|{dodatkowe_informacje}|{cena}|{czas}|{rodzaj}|{id_problemu}|{losowa_data.strftime('%d-%m-%Y')}"
 
                     # Zapis do pliku
                     output_file.write(f"{bulk_value}\n")
@@ -97,8 +103,9 @@ def generate():
         else:
             break
 
+    rok_start = int(input("Podaj rok startowy do generowania operacji: "))
     ilosc_operacji = int((procent_rozw_problemow/100)*ilosc_problemow)
-    generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy)
+    generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy, rok_start)
 
 def generate_default():
     przejazdy_w_bazie = 0
@@ -108,7 +115,7 @@ def generate_default():
     opisy = generuj_problems_bulk(przejazdy_w_bazie, ilosc_przejazdow, ilosc_problemow)
     procent_rozw_problemow = 80
     ilosc_operacji = int((procent_rozw_problemow/100)*ilosc_problemow)
-    generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy)
+    generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy, 2020)
 
 def generate_second():
     przejazdy_w_bazie = 3000
@@ -118,4 +125,4 @@ def generate_second():
     opisy = generuj_problems_bulk(przejazdy_w_bazie, ilosc_przejazdow, ilosc_problemow)
     procent_rozw_problemow = 70
     ilosc_operacji = int((procent_rozw_problemow/100)*ilosc_problemow)
-    generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy)
+    generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy, 2021)

@@ -54,6 +54,7 @@ CREATE TABLE Operacje (
     Czas_Operacji NUMERIC,
     Rodzaj_operacji VARCHAR(10),
     ID_problemu INT,
+    Czas TIME,
     FOREIGN KEY (ID_problemu) REFERENCES PROBLEMY(ID)
 );
 GO
