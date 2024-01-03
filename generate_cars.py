@@ -32,7 +32,7 @@ def generuj_vehicles_bulk(liczba_danych):
             marka, model = losuj_marke_i_model()
             nr_rejestracyjny = generuj_nr_rejestracyjny()
             nr_vin = generuj_nr_vin()
-            file.write(f"{marka}|{model}|{nr_rejestracyjny}|{nr_vin}\n")
+            file.write(f"|{marka}|{model}|{nr_rejestracyjny}|{nr_vin}\n")
 
 
 # Główna część programu

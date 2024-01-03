@@ -21,7 +21,7 @@ def generuj_date_urodzenia():
     rok = random.randint(1950, 2005)
     miesiac = random.randint(1, 12)
     dzien = random.randint(1, 28)  # Uproszczona obsługa miesięcy o stałej liczbie dni
-    return f"{dzien:02d}-{miesiac:02d}-{rok}"
+    return f"{rok}-{miesiac:02d}-{dzien:02d}"
 
 
 # Funkcja generująca numer prawa jazdy
@@ -43,7 +43,7 @@ def generuj_users_bulk(liczba_danych):
             data_urodzenia = generuj_date_urodzenia()
             nr_prawa_jazdy = generuj_nr_prawa_jazdy()
 
-            writer.writerow([imie, nazwisko, data_urodzenia, nr_prawa_jazdy])
+            writer.writerow(["",imie, nazwisko, data_urodzenia, nr_prawa_jazdy])
 
 
 def generate():

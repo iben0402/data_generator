@@ -74,7 +74,24 @@ def main():
         return
 
 
+def add_pipe_to_start_of_each_line(file_path):
+    try:
+        # Otworzenie pliku do czytania
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
+
+        # Dodanie znaku "|" na początku każdej linii
+        modified_lines = ['|' + line for line in lines]
+
+        # Zapisanie zmodyfikowanych linii do pliku
+        with open(file_path, 'w') as file:
+            file.writelines(modified_lines)
+
+        return "Znak '|' został dodany na początku każdej linii w pliku."
+    except Exception as e:
+        return f"Wystąpił błąd: {e}"
 
 
 if __name__ == "__main__":
-    main()
+    #main()
+    print(add_pipe_to_start_of_each_line("C:/Users/iwona/Data-warehouse-implementation/sqls/kachow_master_and_excel/generated_2/problems.bulk"))

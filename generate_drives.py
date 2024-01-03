@@ -47,7 +47,7 @@ def generuj_drives_bulk(liczba_przejazdow, liczba_pojazdow, liczba_uzytkownikow,
             id_pojazdu = losuj_id_pojazdu(liczba_pojazdow)
             id_uzytkownika = losuj_id_uzytkownika(liczba_uzytkownikow)
             file.write(
-                f"{losowa_data.strftime('%d-%m-%Y')}|{czas}|{dystans}|{cena}|{zuzyte_paliwo}|{miasto}|{id_pojazdu}|{id_uzytkownika}\n")
+                f"|{losowa_data.strftime('%Y-%m-%d')}|{czas}|{dystans}|{cena}|{zuzyte_paliwo}|{miasto}|{id_pojazdu}|{id_uzytkownika}\n")
 
 
 

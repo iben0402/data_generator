@@ -83,7 +83,7 @@ def generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy, rok_start):
                     dodatkowe_informacje = losowy_string(int(150 * (1 + random.uniform(-0.5, 0.5))))
                     id_problemu = wylosowane_id[index] + problemy_w_bazie
                     losowa_data = losuj_date_operacji(rok_start)
-                    bulk_value = f"{imie_pracownika}|{nazwisko_pracownika}|{rozwiazanie}|{dodatkowe_informacje}|{cena}|{czas}|{rodzaj}|{id_problemu}|{losowa_data.strftime('%d-%m-%Y')}"
+                    bulk_value = f"|{imie_pracownika}|{nazwisko_pracownika}|{rozwiazanie}|{dodatkowe_informacje}|{cena}|{czas}|{rodzaj}|{id_problemu}|{losowa_data.strftime('%Y-%m-%d')}"
 
                     # Zapis do pliku
                     output_file.write(f"{bulk_value}\n")
