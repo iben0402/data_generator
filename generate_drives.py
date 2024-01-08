@@ -59,11 +59,12 @@ def generate():
     generuj_drives_bulk(ilosc_danych, liczba_pojazdow, liczba_uzytkownikow, rok_start)
 
 def generate_default():
-    liczba_uzytkownikow = 1000
-    liczba_pojazdow = 1000
-    ilosc_danych = 3000
-    rok_start = 2020
+    liczba_uzytkownikow = 80000
+    liczba_pojazdow = 50000
+    ilosc_danych = 250000
+    rok_start = 2015
     generuj_drives_bulk(ilosc_danych, liczba_pojazdow, liczba_uzytkownikow, rok_start)
+    print(f"Wygenerowano {ilosc_danych} przejazdów")
 
 def generate_second():
     liczba_uzytkownikow = 1200

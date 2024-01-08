@@ -1,6 +1,4 @@
 import pandas as pd
-import random
-from openpyxl import Workbook
 
 
 def losuj_dane_z_pliku(nazwa_pliku, ilosc_wierszy, wylosowane_miasta):
@@ -45,9 +43,9 @@ def generuj_excela(ilosci):
 def generate_default():
     nazwy_plikow = ['cars.csv', 'cities.csv', 'workers.csv']
     ilosci = {}
-    ilosci['cars.csv'] = 10
-    ilosci['cities.csv'] = 5
-    ilosci['workers.csv'] = 10
+    ilosci['cars.csv'] = 20
+    ilosci['cities.csv'] = 10
+    ilosci['workers.csv'] = 50
     generuj_excela(ilosci)
 
 

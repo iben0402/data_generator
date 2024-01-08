@@ -42,7 +42,9 @@ def generate():
 
 
 def generate_default():
-    generuj_vehicles_bulk(1000)
+    amount = 50000
+    generuj_vehicles_bulk(amount)
+    print(f"Wygenerowano {amount} pojazdów")
 
 def generate_second():
     generuj_vehicles_bulk(200)

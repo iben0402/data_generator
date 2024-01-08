@@ -19,13 +19,14 @@ def losowy_string(dl):
 
 def generuj_problems_bulk(przejazdy_w_bazie, ilosc_przejazdow, ilosc_danych):
     opisy = []
+    id_przejazdow = random.sample(range(przejazdy_w_bazie, przejazdy_w_bazie + ilosc_przejazdow), ilosc_danych)
+
     with open('problems.bulk', 'w') as file:
-        for _ in range(ilosc_danych):
+        for id_przejazdu in id_przejazdow:
             nazwa_pliku = losowy_string(50)
             opis = losuj_opis()
             opisy.append(opis)
-            id_przejazdu = random.randint(przejazdy_w_bazie, przejazdy_w_bazie + ilosc_przejazdow)
-            file.write(f"{nazwa_pliku}|{opis}|{id_przejazdu}\n")
+            file.write(f"|{nazwa_pliku}|{opis}|{id_przejazdu}\n")
 
     return opisy
 
@@ -109,13 +110,15 @@ def generate():
 
 def generate_default():
     przejazdy_w_bazie = 0
-    ilosc_przejazdow = 3000
+    ilosc_przejazdow = 250000
     problemy_w_bazie = 0
-    ilosc_problemow = 1000
+    ilosc_problemow = 70000
     opisy = generuj_problems_bulk(przejazdy_w_bazie, ilosc_przejazdow, ilosc_problemow)
+    print(f"Wygenerowano {ilosc_problemow} problemow")
     procent_rozw_problemow = 80
     ilosc_operacji = int((procent_rozw_problemow/100)*ilosc_problemow)
-    generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy, 2020)
+    generuj_operacje_bulk(ilosc_operacji, problemy_w_bazie, opisy, 2015)
+    print(f"Wygenerowano {ilosc_operacji} operacji")
 
 def generate_second():
     przejazdy_w_bazie = 3000

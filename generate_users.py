@@ -52,7 +52,9 @@ def generate():
 
 
 def generate_default():
-    generuj_users_bulk(1000)
+    amount = 80000
+    generuj_users_bulk(amount)
+    print(f"Wygenerowano {amount} uzytkownikow")
 
 def generate_second():
     generuj_users_bulk(200)
